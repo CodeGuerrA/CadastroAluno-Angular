@@ -33,21 +33,6 @@ Depois, acesse o app em: [http://localhost:4200](http://localhost:4200)
 
 O app recarrega automaticamente ao salvar qualquer alteração no código.
 
-## 🧪 Testes
-
-Para rodar os testes unitários com Karma:
-
-```bash
-ng test
-```
-
-## ⚙️ Configurações adicionais
-
-Caso esteja usando variáveis de ambiente ou precise configurar algo adicional, verifique:
-
-- `angular.json` para personalização da build.
-- `tsconfig.json` para ajustes de TypeScript.
-- `proxy.conf.json` (se houver) para redirecionamento de API.
 
 ## 📁 Estrutura do Projeto
 
@@ -64,19 +49,3 @@ cadastro-alunos/
 ├── tsconfig.json            # Configurações do TypeScript
 └── README.md
 ```
-
-## 🙌 Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-
-### Como contribuir:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b minha-feature`)
-3. Commit suas alterações (`git commit -m 'feat: nova funcionalidade'`)
-4. Push para a branch (`git push origin minha-feature`)
-5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
