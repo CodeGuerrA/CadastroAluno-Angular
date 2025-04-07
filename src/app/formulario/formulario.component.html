@@ -1,0 +1,7 @@
+<input [(ngModel)]="nome" placeholder="Digite o nome do aluno">
+<button (click)="adicionarAluno()">Adicionar</button>
+
+<p *ngIf="!listaAlunos.length">Nenhum aluno cadastrado</p>
+<ul *ngIf="listaAlunos.length">
+  <li *ngFor="let aluno of listaAlunos">{{ aluno }}</li>
+</ul>
